@@ -1,0 +1,185 @@
+body, html {
+	font-family: 'Lato', sans-serif;
+	overflow-y: scroll;
+}
+body {
+  background: url(../img/f1.jpg) no-repeat bottom right;
+  background-size: cover;
+}
+a {
+	text-decoration: none;
+  color: #0dad8d;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #222;
+}
+/* Navigation */
+#menu {
+	padding: 20px;
+  transition: all 0.8s;
+}
+#menu.navbar-default {
+	background-color: rgba(248, 248, 248, 0);
+	border-color: rgba(231, 231, 231, 0);
+}
+#menu a.navbar-brand {
+	text-transform: uppercase;
+	font-size: 22px;
+	background-color: #222222;
+	color: #fff;
+	font-weight: 900;
+}
+#menu a.navbar-brand i.fa {
+	color: rgba(255,255,255,0.7);
+	margin-right: 3px;
+}
+#menu.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #eeeeee;
+	background-color: #222222;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+	color: #0dad8d;
+}
+.on {
+  background-color: #222222 !important;
+  padding: 0 !important;
+}.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #0dad8d !important;
+	background-color: transparent;
+}
+.navbar-toggle {
+	border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #0dad8d;
+	border-color: #0dad8d;
+}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+	background-color: #FFF;
+}
+/*Header*/
+.starter {
+  background: rgba(19, 35, 47, 0.9);
+  color: white;
+  padding: 10px;
+  max-width: 400px;
+  margin: 10px auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}/*
+/* AFTER */
+.form {
+  background: rgba(19, 35, 47, 0.9);
+  color: white;
+  padding: 10px;
+  max-width: 400px;
+  margin: 10px auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.sue-storm {
+  color: rgba(19, 35, 47, 0.9);
+}
+.button {
+  border: 0;
+  margin-top:30px;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 0;
+  padding: 15px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: #1ab188;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.button-block {
+  display: block;
+  width: 100%;
+}
+.button:hover, .button:focus {
+  background: black;
+}
+
+/* END */
+/* Social Section */
+#social-section {
+	margin-top: 50px;
+	padding: 15px 0;
+	background-color: #0dbf9b;
+	text-align: center;
+}
+#social-section .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#social-section .social i.fa {
+	font-size: 24px;
+	padding: 4px 5px;
+	color: #fff;
+	transition: all 0.5s;
+}
+#social-section .social i.fa:hover {
+	color: #666;
+}
+/* Footer */
+#footer {
+	background-color: #222222;
+	color: #777;
+	padding: 15px 0 10px 0;
+	text-align: center;
+}
+#footer p {
+	font-size: 13px;
+	margin-top: 10px;
+}
+#footer a {
+	color: #999;
+}
+#footer a:hover, a:focus {
+	text-decoration: none;
+	color: #0dad8d;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+.content {
+	padding: 40% 0 0;
+}
+}
+
+@media (max-width: 603px) {
+#menu.navbar-default {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+label {
+	float: none !important
+}
+.hover-bg .hover-text {
+	padding: 12% 10%;
+}
+}
+
+@media (max-width: 360px) {
+.hover-bg .hover-text {
+	padding: 22% 10%;
+}
+}
